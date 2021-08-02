@@ -1,8 +1,17 @@
 import React from 'react';
-function App() {
+import Metrics from './components/Metrics';
+import styled from 'styled-components'
+
+const Container = styled.div`
+  display:flex;
+  margin:auto;
+`
+
+const App:React.FC = () => {
   return (
-    <div className="App">
-    </div>
+    <Container>
+        <Metrics></Metrics>
+    </Container>
   );
 }
 
