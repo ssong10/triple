@@ -8,7 +8,7 @@ import Awards from 'components/Awards'
 
 const Container = styled.div`
   margin-top: 100px;
-  min-width: 1200px;
+  width: 1200px;
 `
 const SectionWrap = styled.div`
   width: 90%;
