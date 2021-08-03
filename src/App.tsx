@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import GlobalStyle  from './GlobalStyle';
 import Logo from 'components/Logo'
 import Metrics from 'components/Metrics';
+import Awards from 'components/Awards'
 
 const Container = styled.div`
   margin-top: 100px;
@@ -26,6 +27,7 @@ const App:React.FC = () => {
         <Logo/>
         <Column>
           <Metrics/>
+          <Awards/>
         </Column>
       </SectionWrap>
     </Container>
