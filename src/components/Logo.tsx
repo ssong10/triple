@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import tripleLogo from '../assets/triple.png'
+import tripleLogo from 'assets/triple.png'
 
 const LogoWrap = styled.div`
   position:relative;

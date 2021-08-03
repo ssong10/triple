@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import {countNumber} from '../utils/countNumber'
+import {countNumber} from 'utils/countNumber'
 
 interface Props {
   target: number,
