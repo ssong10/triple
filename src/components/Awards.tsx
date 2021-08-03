@@ -47,12 +47,12 @@ interface IAward {
   description: string;
 }
 
-interface Props {
+interface AwardProps {
   award : IAward,
   idx: number
 }
 
-const Award:React.FC<Props> = ({award,idx}) => {
+const Award:React.FC<AwardProps> = ({award,idx}) => {
   const { image, alt, description } = award
   return (
     <AwardContainer key={idx}>
