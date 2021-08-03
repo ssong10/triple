@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import appStore from 'assets/app-store.png'
 import playStore from 'assets/play-store.png'
+import FadeInDelay from 'styles/FadeIn'
 
 const awards: IAward[] = [
   {
@@ -20,6 +21,7 @@ const AwardsWrap = styled.div`
   position:relative;
   display:flex;
   margin-top: 48px;
+  ${FadeInDelay(300)}
 `
 const AwardContainer = styled.div`
   display:flex;

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import RaiseNumber from './RaiseNumber'
+import FadeInDelay from 'styles/FadeIn'
 
 interface Metric {
   number : number,
@@ -25,9 +26,12 @@ const MetricsItems:Metric[] = [
   }
 ]
 const MetricContainer = styled.div`
+  position:relative;
+  font-size: 2em;
+  ${FadeInDelay(200)}
 `
 const MetricWrap = styled.div`
-  
+  margin-bottom: 12px;
 `
   
 const Metrics:React.FC = () => {

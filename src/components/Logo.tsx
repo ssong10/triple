@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import tripleLogo from 'assets/triple.png'
+import FadeInDelay from 'styles/FadeIn'
 
 const LogoWrap = styled.div`
   position:relative;
   width: 50%;
+  ${FadeInDelay(100)}
 `
 const LogoImage = styled.img`
   height: 338px;
