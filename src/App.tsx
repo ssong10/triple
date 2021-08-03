@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
-import GlobalStyle  from './GlobalStyle';
+import GlobalStyle  from 'styles/GlobalStyle';
+
 import Logo from 'components/Logo'
 import Metrics from 'components/Metrics';
 import Awards from 'components/Awards'
